@@ -3,7 +3,23 @@
   margin: auto;
   text-align: center;
 }
+button {
+  height: 25px;
+  width: 25rem;
+  /* border-radius: 30px; */
+  background-color: #3c3c;
+  box-shadow: 7px 6px 28px 1px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 
+}
 .dice {
   text-align: center;
   display: inline-block;
